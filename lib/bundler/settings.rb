@@ -53,6 +53,7 @@ module Bundler
       suppress_install_using_messages
       unlock_source_unlocks_spec
       update_requires_all_flag
+      viz_command
     ].freeze
 
     NUMBER_KEYS = %w[
